@@ -1,10 +1,9 @@
 # My Code here....
 def map_to_negativize(source_array)
-  result = []
   i = 0
-
+  result = []
   while i < source_array.length do
-    result << source_array[i] * -1
+    source_array[i] * -1
     i += 1
   end
   result
@@ -54,7 +53,7 @@ def reduce_to_all_true(source_array)
     i += 1
   end
   return true
-  
+
 end
 
 def reduce_to_any_true(source_array)
